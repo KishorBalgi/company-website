@@ -1,0 +1,13 @@
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  position: fixed !important;
+  z-index: 9999;
+}
+.navbar-light .nav-link {
+  margin: 0 10px;
+  color: #000 !important;
+}
+.nv-brand img {
+  width: 50px;
+}
