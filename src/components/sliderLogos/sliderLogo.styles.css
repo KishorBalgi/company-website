@@ -1,0 +1,9 @@
+.logo-slider {
+  width: 80%;
+  height: 100px;
+  margin: 10px auto;
+}
+.logo-slider img {
+  height: 100px;
+  width: auto;
+}
