@@ -1,19 +1,23 @@
 import React from "react";
 import { connect } from "react-redux";
-import { Card } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 
 const ServiceCard = (props) => {
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card className="service-card">
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+        <div className="service-card-header">
+          <FontAwesomeIcon icon={faLaptopCode} />
+          <Card.Title>Card Title</Card.Title>
+        </div>
+
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
+        <Button>Read More</Button>
       </Card.Body>
     </Card>
   );

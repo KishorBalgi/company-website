@@ -1,11 +1,12 @@
 import React from "react";
+import "./services.styles.css";
 import { Col, Container, Row } from "react-bootstrap";
 import { connect } from "react-redux";
 import ServiceCard from "./services.card";
 
 const Services = (props) => {
   return (
-    <section>
+    <section id="services">
       <h1>Services</h1>
       <p></p>
       <Container>

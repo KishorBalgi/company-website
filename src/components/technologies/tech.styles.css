@@ -1,0 +1,14 @@
+#tech-stack .nav {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#tech-stack .nav-item {
+  margin: 0 10px;
+}
+#tech-stack .tech-card {
+  padding: 20px;
+}
+#tech-stack .tech-card img {
+  width: 100px;
+}
