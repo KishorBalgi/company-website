@@ -1,0 +1,23 @@
+.contact-us {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.contact-us div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+.contact-us label {
+  font-size: 20px;
+}
+
+.contact-us button[type="submit"] {
+  background-color: #1e1e1e;
+  float: right;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}

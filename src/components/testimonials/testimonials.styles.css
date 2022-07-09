@@ -1,0 +1,30 @@
+#testimonials {
+  background-color: #f8f9fc;
+  overflow-x: hidden;
+}
+#testimonials .slick-slider {
+  margin: 20px 0;
+}
+.testimonial-card {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px 30px !important;
+  margin-bottom: 20px;
+}
+.testimonial-card img {
+  width: 60px;
+  height: auto;
+}
+
+.testimonial-card p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 10px;
+}

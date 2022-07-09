@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./tech.styles.css";
 import { connect } from "react-redux";
-import { Nav, Row, Col, Container } from "react-bootstrap";
+import { Nav, Row, Container } from "react-bootstrap";
 import TechCard from "./techCard.component";
 import nodejs from "../../assets/icons/nodejs.png";
 import react from "../../assets/icons/react.png";

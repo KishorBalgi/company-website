@@ -1,0 +1,13 @@
+#footer {
+  background-color: #f8f9fc;
+  margin-bottom: 0;
+}
+.footer-social-icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-social-icons img {
+  width: 40px;
+}
